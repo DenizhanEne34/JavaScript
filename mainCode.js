@@ -1,3 +1,6 @@
+//This repository contains some of the code I wrote at my previous internship as a Back End Developer at Maxitech. 
+//These are a small sample but somehow represents what my overall code structure looked like.
+
 // These are some code snippets from the 2 projects I completed at my internship
 
 const sendPeriodicSummariesAsync = async (period) => {
@@ -142,3 +145,4 @@ exports.updateTransaction = asyncHandler(async (req, res, next) => {
     data: this.transactionToDTO(newTransaction),
   });
 });
+
