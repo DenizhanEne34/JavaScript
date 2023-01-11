@@ -1,3 +1,5 @@
+//This is my code for a receipt photo model used in our application.
+
 const mongoose = require('mongoose');
 
 const ReceiptPhotoSchema = new mongoose.Schema({
